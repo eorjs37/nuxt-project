@@ -1,7 +1,6 @@
 <template>
-  <div></div>
+  <div>
+    <h1>TEST</h1>
+  </div>
 </template>
-<script setup lang="ts">
-const appconfig = useAppConfig();
-console.log(appconfig);
-</script>
+<script setup lang="ts"></script>
