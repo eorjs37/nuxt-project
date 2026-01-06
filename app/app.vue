@@ -1,10 +1,6 @@
 <template>
-  <div>
-    <h1>Welcome to the homepage</h1>
-    <h1>{{ config.public.apiBaseUrl }}</h1>
-    <h1>{{ config.public.secretKey }}</h1>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
-<script setup lang="ts">
-const config = useRuntimeConfig();
-</script>
+<script setup lang="ts"></script>

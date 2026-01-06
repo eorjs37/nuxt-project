@@ -1,0 +1,11 @@
+<template>
+  <header>
+    <h1>HEADER</h1>
+  </header>
+  <main>
+    <slot></slot>
+  </main>
+  <footer>
+    <h1>FOOTER</h1>
+  </footer>
+</template>

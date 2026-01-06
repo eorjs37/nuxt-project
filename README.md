@@ -66,4 +66,10 @@ nuxi dev --dotenv .env.development
 ## nuxi dev --dotenv .env.production
 ```
 
-## app.config.ts
+## views
+
+### component
+
+### pages
+
+### Layouts
