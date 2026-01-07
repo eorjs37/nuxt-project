@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>TEST</h1>
+    <img src="~/assets/img/logo_500.png" alt="로고" />
   </div>
 </template>
 <script setup lang="ts">
