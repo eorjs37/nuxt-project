@@ -4,6 +4,10 @@
   </section>
 </template>
 <script lang="ts" setup>
+definePageMeta({
+  middleware: ["auth"],
+});
+
 useSeoMeta({
   title: "about",
   description: "우리서비스 about",

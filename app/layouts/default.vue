@@ -1,7 +1,5 @@
 <template>
-  <header>
-    <h1>HEADER</h1>
-  </header>
+  <AppHeader />
   <main>
     <slot></slot>
   </main>
@@ -9,3 +7,6 @@
     <h1>FOOTER</h1>
   </footer>
 </template>
+<script setup lang="ts">
+import AppHeader from "~/components/AppHeader.vue";
+</script>
